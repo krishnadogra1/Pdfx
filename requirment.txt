@@ -1,0 +1,12 @@
+flask              # Web framework to build the server
+fpdf               # For PDF generation from .txt files
+termcolor          # For colored terminal output (hacker-style)
+werkzeug           # For better request handling in Flask
+python-dotenv      # For managing environment variables (for security or production use)
+pillow             # For adding images to PDFs (if you plan to add images)
+pyperclip           # For clipboard functionality (copying text or file paths)
+requests           # To make HTTP requests (if you want to extend functionality)
+gunicorn           # For running Flask app in production (high-performance)
+json                # For working with JSON data (useful in web apps)
+numpy               # For data processing (useful for complex logic if needed)
+pandas              # For data management and tables (useful for processing data before saving to PDFs)
