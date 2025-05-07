@@ -1,1 +1,81 @@
+/* style.css */
 
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #00ffcc50;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1.glow {
+  font-size: 2.5em;
+  color: #00ffc8;
+  text-shadow: 0 0 10px #00ffc8, 0 0 20px #00ffc8;
+  margin-bottom: 10px;
+}
+
+.typewriter {
+  font-family: monospace;
+  font-size: 1.1em;
+  color: #aaffee;
+  margin-bottom: 30px;
+  border-left: 2px solid #00ffc8;
+  padding-left: 10px;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #00ffc8;
+  }
+}
+
+input[type="file"] {
+  background-color: #111;
+  border: 2px dashed #00ffc8;
+  color: #00ffc8;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #00ffc8;
+  color: #000;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00bfa6;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #888;
+}
