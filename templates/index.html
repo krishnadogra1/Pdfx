@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PDFx Hacker Tool</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1 class="glow">PDFx | Hacker Mode</h1>
+    <p class="typewriter">Upload your .txt file to convert it into a secure PDF</p>
 
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="txtfile" accept=".txt" required><br><br>
+      <button type="submit">Convert to PDF</button>
+    </form>
+
+    <p class="footer">All Rights Reserved © 2025 by KR</p>
+  </div>
+</body>
+</html>
